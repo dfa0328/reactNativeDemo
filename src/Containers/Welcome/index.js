@@ -21,7 +21,7 @@ const styles = StyleSheet.create({
 
 export default class Home extends React.Component {
   static navigationOptions = {
-    title: '列表',
+    title: '我的账户',
   };
   
   constructor(props){

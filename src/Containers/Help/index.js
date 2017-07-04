@@ -20,7 +20,7 @@ const styles = StyleSheet.create({
 
 export default class Help extends React.Component {
   static navigationOptions = {
-    title: '帮助',
+    title: '我的课程',
   };
   
   constructor(props){
