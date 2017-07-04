@@ -38,7 +38,7 @@ export default class Home extends React.Component {
 
     return (
       <View style={styles.container}>
-        <Text style={styles.hello} >首页</Text>
+        <Text style={styles.hello} >账户</Text>
 
       </View>
     )

@@ -33,7 +33,7 @@ export default class Help extends React.Component {
 
     return (
       <View style={styles.container}>
-        <Text style={styles.hello} >222</Text>
+        <Text style={styles.hello} >我的课程</Text>
       </View>
     )
 
