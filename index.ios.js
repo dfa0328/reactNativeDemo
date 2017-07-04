@@ -15,7 +15,9 @@ import {Home,Help,Welcome} from './src/Containers';
 
 
 class ReactDemo extends React.Component {
- 
+  static navigationOptions = {
+    title: '发现课程',
+  };
   render() {
     
     return (

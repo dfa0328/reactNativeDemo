@@ -1,9 +1,9 @@
 'use strict';
 
-import HeaderBar from './HeaderBar';
+import ButtonComponent from './ButtonComponent';
 
 
 module.exports = {
-    HeaderBar,
+   ButtonComponent
     
 }
