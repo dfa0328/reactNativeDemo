@@ -44,8 +44,8 @@ export default class Course extends React.Component {
     return (
       <View style={styles.container}>
         <Text style={styles.header} >我的课程</Text>
-        <View>
-        
+        <View style={styles.nav}>
+
         </View>
 
       </View>
