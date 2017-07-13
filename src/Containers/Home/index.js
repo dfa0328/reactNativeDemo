@@ -107,7 +107,7 @@ export default class Home extends React.Component {
               dataSource={this.state.dataSource}
               renderPage={this.renderPage}
               isLoop={true} 
-              autoPlay={false}
+              autoPlay={true}
             />
           </View>
       </View>

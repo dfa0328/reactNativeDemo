@@ -1,9 +1,9 @@
 'use strict';
 
-import ButtonComponent from './ButtonComponent';
+import Banner from './Banner';
 
 
 module.exports = {
-   ButtonComponent
+   Banner
     
 }

@@ -8,10 +8,9 @@ import {
   AppRegistry
 } from 'react-native';
 import {
-    StackNavigator,
     TabNavigator,
 } from 'react-navigation';
-import {Home,Help,Welcome} from './src/Containers';
+import {Home,Course,Welcome} from './src/Containers';
 
 
 class ReactDemo extends React.Component {
@@ -28,8 +27,12 @@ class ReactDemo extends React.Component {
 
 const SimpleApp = TabNavigator({
   HomePage: { screen: ReactDemo },
-  HelpPage: { screen: Help },
+  CoursePage: { screen: Course },
   WelcomePage: { screen: Welcome },
+},{
+  tabBarOptions: {
+    activeTintColor: '#09bb63',
+  },
 });
  
 
